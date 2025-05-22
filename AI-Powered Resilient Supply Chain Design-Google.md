@@ -684,7 +684,4 @@ graph TD
 This detailed scenario highlights how the robust combination of real-time data, time-series anomaly detection, intelligent agentic AI, 
 immutable blockchain records, and automated self-healing capabilities creates an ultra-resilient logistics system capable of proactively 
 managing complex disruptions like weather-induced delays.
-  
-    * 
-  
-    * 
+
