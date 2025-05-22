@@ -355,7 +355,9 @@ This comprehensive system design presents an end-to-end AI and blockchain-powere
 - **Environmental Regulations**: EPA and international environmental standards
 
 ### ** system architecture diagram to illustrate the complete solution**
-![supply_chain_architecture_diagram](https://github.com/user-attachments/assets/86601227-5c58-400a-b2be-5c1777326d42)
+
+![image](https://github.com/user-attachments/assets/69fc8ddf-334d-40b3-b545-856a4964820c)
+
 
 
 
