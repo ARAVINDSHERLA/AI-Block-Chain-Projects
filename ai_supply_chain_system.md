@@ -1,4 +1,5 @@
 # AI-Powered Ultra-Resilient Supply Chain System Design
+#Design a comprehensive end-to-end AI-powered supply chain system with anomaly detection, self-healing capabilities, and blockchain integration for ultra-resilient real-time logistics.
 
 ## Executive Summary
 
@@ -352,6 +353,11 @@ This comprehensive system design presents an end-to-end AI and blockchain-powere
 - **International Trade**: Customs and trade regulation compliance
 - **Quality Standards**: ISO 9001, Six Sigma integration
 - **Environmental Regulations**: EPA and international environmental standards
+
+### ** system architecture diagram to illustrate the complete solution**
+![supply_chain_architecture_diagram](https://github.com/user-attachments/assets/86601227-5c58-400a-b2be-5c1777326d42)
+
+
 
 ## Conclusion
 
