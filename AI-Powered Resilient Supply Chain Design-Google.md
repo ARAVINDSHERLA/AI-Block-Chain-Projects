@@ -431,8 +431,8 @@ graph TD
         C2 --> D3(Feature Store Offline: Apache Iceberg, Delta Lake, Hudi)
         C2 --> D4(Data Warehouse: Snowflake, Google BigQuery, Amazon Redshift)
 
-        linkStyle 8 stroke-width:2px,stroke:#555;
-        linkStyle 9 stroke-width:2px,stroke:#555;
+        linkStyle 8 stroke-width:2px,stroke:#555
+        linkStyle 9 stroke-width:2px,stroke:#555
     end
 
     subgraph AI/ML Core
@@ -449,15 +449,15 @@ graph TD
         F1 & F2 & F3 --> H1(MLOps: Model Monitoring, Data Drift, Concept Drift, Explainable AI)
         H1 --> I1(Alerting & Feedback Loop)
 
-        linkStyle 16 stroke-width:2px,stroke:#555;
-        linkStyle 17 stroke-width:2px,stroke:#555;
-        linkStyle 18 stroke-width:2px,stroke:#555;
-        linkStyle 19 stroke-width:2px,stroke:#555;
+        linkStyle 16 stroke-width:2px,stroke:#555
+        linkStyle 17 stroke-width:2px,stroke:#555
+        linkStyle 18 stroke-width:2px,stroke:#555
+        linkStyle 19 stroke-width:2px,stroke:#555
     end
 
     subgraph Blockchain Integration
         F3 --> J1(Blockchain API Gateway: Custom REST API, RPC client)
-        J1 --> K1(Blockchain Network: Hyperledger Fabric, Ethereum (private/consortium), Corda)
+        J1 --> K1(Blockchain Network: Hyperledger Fabric, Ethereum private/consortium, Corda)
         K1 --> L1(Smart Contracts: Chaincode, Solidity)
         B1 --> L2(Oracles: Chainlink, Band Protocol)
         L2 --> L1
@@ -472,7 +472,7 @@ graph TD
 
     subgraph User Interface & Monitoring
         H1 & I1 & N3 --> O1(Monitoring & Alerting Dashboards: Grafana, Prometheus, Datadog)
-        O1 --> P1(Real-time Supply Chain Digital Twin Visualisation: Custom Web App - React/Angular/Vue.js)
+        O1 --> P1(Real time Supply Chain Digital Twin Visualisation: Custom Web App  React/Angular/Vue.js)
         O1 --> P2(ChatOps Interface: Slack, MS Teams Integration)
 
         P1 & P2 --> Q1(Human-in-the-Loop Decision Support)
@@ -522,13 +522,13 @@ Sure, you're looking for specific Kafka topic names within the "Real-time Data S
 
 Here's how those Kafka topics could be structured, along with their purpose:
 
-### Real-time Data Streams (Kafka Topics)
+### Real-time Data Streams (Kafka Topics) Tech Stack with Kafka Topics
 
 Instead of just `Apache Kafka`, `Amazon Kinesis`, `Google Pub/Sub`, this node `B1` would contain a set of defined Kafka topics.
 
 ```mermaid
 graph TD
-    subgraph Real-time Data Streams (Kafka Topics)
+    subgraph Real time Data Streams Kafka Topics
         DS1[IoT Devices & Sensors] --> A1(IoT Hub / Gateway Adapters)
         DS2[ERP/WMS/TMS] --> A2(Enterprise System Connectors)
         DS3[Carrier/3PL Data] --> A3(External API Adapters)
@@ -581,7 +581,6 @@ graph TD
     style D1 fill:#f9c,stroke:#333,stroke-width:2px
     style D2 fill:#bcf,stroke:#333,stroke-width:2px
 ```
-
 **Example Kafka Topic Names and their Purpose:**
 
 1.  **`raw_sensor_data`**:
